@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    fieldset {
+        width: 500px;
+    }
+</style>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Personal Data</legend>
+            User Name: <input type="text" name="userid" placeholder="Enter your User Name" required><br><br>
+            Email: <input type="email" name="email" placeholder="Enter Your Email Id"> <br> <br>
+            Password: <input type="password" name="password" placeholder="Enter your Password" required><br><br>
+            Age: <input type="number" name="age" placeholder="Age"> <br><br>
+            Gender: <input type="radio" name="gender"> Male <input type="radio" name="gender"> Female<br><br>
+            Born: <input type="date"><br><br>
+            Select Courses: <select name="course" required>
+                <option value="">-- Choose Courses --</option>
+                <option value="css">CSS</option>
+                <option value="js">JAVASCRIPT</option>
+                <option value="bts">BOTTSTRAP</option>
+                <option value="jq">JQUERY</option>
+                <option value="tw">TAILWIND</option>
+                <option value="rxt">REACT JS</option>
+            </select><br><br>
+            <input type="submit" value="Log In" name="submit">
+        </fieldset>
+    </form>
+</body>
+
+</html>

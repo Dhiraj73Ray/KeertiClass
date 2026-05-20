@@ -1,0 +1,37 @@
+h1{
+    /* general colors */
+    /* rbg color  */  
+    color: rgb(225, 0, 0);  /*  0-225  */
+    color: rgb(0, 225, 0);  /*  0-225  */
+    color: rgb(0, 0, 225);  /*  0-225  */
+    color: rgba(0, 0, 225, 0.5);  /*  0-225  */  /*  0-1  */
+    /*  hexcode color */
+}
+
+
+.web_dev{
+    background-color: rgb(245, 172, 172);
+    font-size: xx-large;
+    font-family: serif, sans-serif;
+    font-family: Arial ;
+    font-weight: 900;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.p1{
+    line-height: 30px;
+    border: 1px solid black;
+}
+
+.html{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    font-size: 3rem;
+    font-size: 10vh;
+    font-size: 100%;
+    
+}
+

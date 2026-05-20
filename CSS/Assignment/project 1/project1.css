@@ -1,0 +1,178 @@
+
+/* .right-menu {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.small-link {
+    color: white;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.hero {
+    background: linear-gradient(to right, #000428, #004e92);
+    color: white;
+    padding: 120px 80px;
+}
+.hero h1 {
+    font-size: 55px;
+    font-weight: 900;
+    line-height: 1.1;
+    width: 600px;
+}
+
+.hero button {
+    margin-top: 30px;
+    background-color: #ff4d00;
+    border: none;
+    padding: 12px 25px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.hero button:hover {
+    background-color: #e04300;
+
+}
+.about-section {
+    background-color: #666;
+    padding: 80px 0;
+    display: flex;
+    justify-content: center;
+}
+.about-container {
+    width: 900px;
+    display: flex;
+    background-color: #ddd;
+}
+
+.about-image{
+    width: 50%;
+} */
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: color #f5f5f5; ;
+}
+
+header{
+    background-color: #111;
+    color: white;
+    display: flex;
+    height: 76px;
+    align-items: center;
+}
+.logo{
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 40px;
+    margin-left: 40px;
+    display: flex;
+}
+
+.logo h2{
+    display: inline-block;
+}
+nav{
+    display: flex;
+    align-items: center;
+    
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color: white;
+    font-size: 15px;
+}
+
+nav ul li, button a:hover {
+    color: orange;
+}
+
+
+.rightmenu{
+    position: absolute;
+    right: 30px;
+    display: flex;
+    gap: 34px;
+    align-items: center;
+
+}
+
+.profile{
+    background-color: #e04300;
+    border-radius: 50%;
+    
+ 
+}
+
+.login, .cart{
+    /* margin-right: 20px; */
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    
+}
+
+.memb-button{
+    padding: 4px 15px;
+    font-size: 16px;
+    background-color: #e04300;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.home-sec{
+    height: 800px;
+    background-image: url("https://static.wixstatic.com/media/c837a6_50761590dc1b4399857c2af5d228a00c~mv2.png/v1/fill/w_1351,h_802,fp_0.48_0.12,q_90,usm_0.66_1.00_0.01,enc_auto/untitled_Gemini%203%20(Nano%20Banana%20Pro)15.png");
+    
+}
+
+.hero-section{
+    width: 800px;
+    /* border: 1px solid white; */
+    margin-left: 100px;
+    
+}
+
+.hero-section h3{
+    padding-top: 80px;
+
+    /* margin-top: 100px; */
+    margin-bottom: 20px;
+    color: white;
+
+}
+
+.hero-section h1{
+    font-size: 80px;
+    text-transform: uppercase;
+    color: rgb(54, 97, 212);
+    font-weight: 900;
+    line-height: 70px;
+
+}
+
+.book-button{
+    padding: 4px 15px;
+    font-size: 20px;    
+    background-color: #e04300;
+    border-style: none;
+    border-radius: 3px;
+}
+

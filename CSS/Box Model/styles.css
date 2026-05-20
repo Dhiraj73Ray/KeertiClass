@@ -1,0 +1,35 @@
+.price{
+    background-color: rgb(221, 221, 85);
+    /* line-height: 18px; */
+}
+
+.div1{
+    height: 100px;
+    height: 258px;
+    width: 200px;
+    background-color: rgb(219, 149, 149);
+}
+
+.p2, .p3{
+    text-align: center;
+    /* padding-top: 20px;
+    padding-right: 30px;
+    padding-left: 50px;
+    padding-bottom: 10px; */
+    padding: 20px 10px 50px 30px ; /* Top Rght Bottom Left */
+    padding: 20px 10px ; /* Top-Bottom Left-right */
+    padding: 20px 0 20px 0; /* Top-Bottom Left-right */
+
+    border-top: 1px solid red ;
+    border-right: 2px dashed blue;
+    border-bottom: 3px double green;
+    border-left: 4px dotted yellow;
+
+    /* border-color: red;
+    border-width: 2px;
+
+    border-style: solid; */
+    border: 1px solid black;
+
+    margin: 30px;
+}

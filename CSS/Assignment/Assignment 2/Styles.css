@@ -1,0 +1,119 @@
+body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+      
+        .navbar {
+            background-color: #131921;
+            color: white;
+            display: flex;
+            align-items: center;
+            padding: 10px;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            margin-right: 20px;
+        }
+
+        .logo span {
+            color: orange;
+        }
+
+        .location {
+            font-size: 12px;
+            margin-right: 20px;
+        }
+
+        .search {
+            display: flex;
+            flex: 1;
+        }
+
+        .search input {
+            width: 100%;
+            padding: 8px;
+            border: none;
+        }
+
+        .search button {
+            background-color: orange;
+            border: none;
+            padding: 8px 12px;
+        }
+
+        .item {
+            font-size: 12px;
+            margin-left: 20px;
+        }
+
+        .cart {
+            font-size: 14px;
+            margin-left: 20px;
+        }
+
+.account {
+    position: relative;
+    font-size: 12px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: -100px;
+    width: 500px;
+    background: white;
+    color: black;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+
+.account:hover .dropdown {
+    display: block;
+}
+
+
+.signin-btn {
+    width: 100%;
+    background: #ffd814;
+    border: none;
+    padding: 8px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.new {
+    text-align: center;
+    font-size: 12px;
+    margin: 10px 0;
+}
+
+.new a {
+    color: #007185;
+    text-decoration: none;
+}
+
+
+.lists {
+    display: flex;
+    gap: 30px;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+}
+
+.lists h4 {
+    margin-bottom: 8px;
+}
+
+.lists p {
+    margin: 4px 0;
+    font-size: 12px;
+}

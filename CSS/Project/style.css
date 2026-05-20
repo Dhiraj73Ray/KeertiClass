@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+.nav {
+
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav .logo {
+    margin-left: 50px;
+}
+
+#nav-title {
+    margin: 0;
+    margin-top: 15px;
+
+    font-family: "Dancing Script", cursive;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.nav img {
+    width: 20px;
+}
+
+.nav .items {
+    display: flex;
+    margin-right: 90px;
+}
+
+.items li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+.About {
+    display: flex;
+    background-image: url("../Project/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border: 1px solid black; */
+
+}
+
+.Leftabout {
+    width: 50%;
+    margin-left: 10px;
+
+    text-wrap: balance;
+    padding: 20px;
+    color: black;
+    font-weight: 600;
+    line-height: 1.5;
+    font-size: 30px;
+}
+
+.rightabout svg {
+    width: 50%;
+}
+
+.ido {
+    text-align: center;
+}
+
+.p1 {
+    text-align: center;
+}
+
+.courses {
+    border: 1px solid black;
+
+}
+        
+.whatido{
+    display: flex;
+    width: 900px;
+    margin: auto;
+}
+
+
+.whatido1{
+    border: 1px solid black;
+    /* width: 150%; */
+}
+
+.whatido2 {
+    /* width: 100%; */
+    /* margin-left: 10px; */
+    border: 1px solid black;
+
+    /* text-wrap: balance; */
+    /* padding: 20px; */
+    color: black;
+    font-weight: 600;
+    line-height: 1.5;
+    font-size: 30px;
+}
+
+.whatido2 h3 {
+    margin: 0;
+}

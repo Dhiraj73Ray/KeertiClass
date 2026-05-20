@@ -1,0 +1,35 @@
+.box1{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(186, 146, 206);
+}
+
+.box1:hover{
+    color: white;
+    /* transform: translateX(15px);
+    transform: translatey(15px);
+    transform: translatez(15px);
+    translate: 50% 105px 5rem;
+    transition-duration: 0.3s;
+    transition-property: all; */
+    /* transition-delay: 3s; */ 
+
+    transition: color 4s ease-in;
+}
+
+/* transition: property duration timing-function delay; */
+
+@keyframes myAnimation {
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}
+
+.box1:active{
+    background-color: chartreuse;
+    color: black;
+}
